@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ADD8E6">
+
+    <!--Id de texto para segunda actividad-->
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a la Segunda Actividad"
+        android:textSize="20sp"
+        />
+
+    <!--Id de fragmento-->
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.miprimeraapp.InfoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

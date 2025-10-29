@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Boton saludar y mostrar un toast-->
+    <Button
+        android:id="@+id/btnSaludar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saludar"/>
+
+    <!--Boton para ir Segunda Actividad-->
+    <Button
+        android:id="@+id/btnSegunda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a Segunda Actividad"
+        android:padding="16dp"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Botones para iniciar y parar servicio-->
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Servicio"
+        android:padding="16dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="12dp"/>
+    <Button
+        android:id="@+id/btnDetener"
+        android:text="Detener Servicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

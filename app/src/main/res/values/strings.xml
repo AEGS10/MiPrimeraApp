@@ -1,0 +1,8 @@
+<!--Invocacion del texto -->
+<resources>
+    <string name="app_name">MiPrimeraApp</string>
+    <string name="saludar">Saludar</string>
+    <string name="iniciar_servicio">Iniciar servicio</string>
+    <string name="detener_servicio">Detener servicio</string>
+
+</resources>
